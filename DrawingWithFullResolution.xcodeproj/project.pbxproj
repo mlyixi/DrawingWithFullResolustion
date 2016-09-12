@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1B6914310541DBFA4A42B2 /* libPods-DrawingWithFullResolution.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E12D3BD3A59A260BADA041AD /* libPods-DrawingWithFullResolution.a */; };
 		6846C7C01A15F1B5005CC596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846C7BF1A15F1B5005CC596 /* main.m */; };
 		6846C7C31A15F1B5005CC596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846C7C21A15F1B5005CC596 /* AppDelegate.m */; };
 		6846C7C51A15F1B5005CC596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6846C7C41A15F1B5005CC596 /* Images.xcassets */; };
@@ -15,7 +16,6 @@
 		6846C7DF1A15F66F005CC596 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846C7DE1A15F66F005CC596 /* MLViewController.m */; };
 		6846C7E11A15F8E4005CC596 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 6846C7E01A15F8E4005CC596 /* eraser.png */; };
 		6846C7E31A15FB24005CC596 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6846C7E21A15FB24005CC596 /* Default-568h@2x.png */; };
-		8A43AD8CAFBB22AEC999ABE9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C15B329C4564E4817C16A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		322C15B329C4564E4817C16A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D4F58AC4B72944304960AC /* Pods-DrawingWithFullResolution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingWithFullResolution.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingWithFullResolution/Pods-DrawingWithFullResolution.debug.xcconfig"; sourceTree = "<group>"; };
 		6846C7BA1A15F1B5005CC596 /* DrawingWithFullResolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingWithFullResolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6846C7BE1A15F1B5005CC596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6846C7BF1A15F1B5005CC596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		6846C7DE1A15F66F005CC596 /* MLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
 		6846C7E01A15F8E4005CC596 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
 		6846C7E21A15FB24005CC596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6FCA40B3DF2DB54C5CB076B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D2B51BC982A04C8631F08E31 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C953C021F85D93207818C7A4 /* Pods-DrawingWithFullResolution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingWithFullResolution.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingWithFullResolution/Pods-DrawingWithFullResolution.release.xcconfig"; sourceTree = "<group>"; };
+		E12D3BD3A59A260BADA041AD /* libPods-DrawingWithFullResolution.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawingWithFullResolution.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A43AD8CAFBB22AEC999ABE9 /* libPods.a in Frameworks */,
+				5E1B6914310541DBFA4A42B2 /* libPods-DrawingWithFullResolution.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 		1AFC8273911CBF8A2AEBDD23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				322C15B329C4564E4817C16A /* libPods.a */,
+				E12D3BD3A59A260BADA041AD /* libPods-DrawingWithFullResolution.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 		7FC216A2C2053364DB366E13 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6FCA40B3DF2DB54C5CB076B9 /* Pods.debug.xcconfig */,
-				D2B51BC982A04C8631F08E31 /* Pods.release.xcconfig */,
+				10D4F58AC4B72944304960AC /* Pods-DrawingWithFullResolution.debug.xcconfig */,
+				C953C021F85D93207818C7A4 /* Pods-DrawingWithFullResolution.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -153,11 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6846C7D71A15F1B5005CC596 /* Build configuration list for PBXNativeTarget "DrawingWithFullResolution" */;
 			buildPhases = (
-				EB466A4366B35114377186F7 /* Check Pods Manifest.lock */,
+				EB466A4366B35114377186F7 /* [CP] Check Pods Manifest.lock */,
 				6846C7B61A15F1B5005CC596 /* Sources */,
 				6846C7B71A15F1B5005CC596 /* Frameworks */,
 				6846C7B81A15F1B5005CC596 /* Resources */,
-				15A6923129C0E408EF5DFFE1 /* Copy Pods Resources */,
+				15A6923129C0E408EF5DFFE1 /* [CP] Copy Pods Resources */,
+				6FF7499256668E610B5EABC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +193,7 @@
 		6846C7B21A15F1B5005CC596 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mlyixi;
 				TargetAttributes = {
 					6846C7B91A15F1B5005CC596 = {
@@ -245,29 +246,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15A6923129C0E408EF5DFFE1 /* Copy Pods Resources */ = {
+		15A6923129C0E408EF5DFFE1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingWithFullResolution/Pods-DrawingWithFullResolution-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB466A4366B35114377186F7 /* Check Pods Manifest.lock */ = {
+		6FF7499256668E610B5EABC2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingWithFullResolution/Pods-DrawingWithFullResolution-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB466A4366B35114377186F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +354,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -352,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -388,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,24 +415,26 @@
 		};
 		6846C7D81A15F1B5005CC596 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCA40B3DF2DB54C5CB076B9 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 10D4F58AC4B72944304960AC /* Pods-DrawingWithFullResolution.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawingWithFullResolution/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arcst.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		6846C7D91A15F1B5005CC596 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B51BC982A04C8631F08E31 /* Pods.release.xcconfig */;
+			baseConfigurationReference = C953C021F85D93207818C7A4 /* Pods-DrawingWithFullResolution.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawingWithFullResolution/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arcst.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -434,6 +453,7 @@
 				);
 				INFOPLIST_FILE = DrawingWithFullResolutionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arcst.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingWithFullResolution.app/DrawingWithFullResolution";
 			};
@@ -449,6 +469,7 @@
 				);
 				INFOPLIST_FILE = DrawingWithFullResolutionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arcst.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingWithFullResolution.app/DrawingWithFullResolution";
 			};

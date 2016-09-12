@@ -1,3 +1,4 @@
 platform:ios, '7.0'
 
-pod 'BlocksKit'
+target 'DrawingWithFullResolution'
+pod 'BlocksKit', '2.2.5'
